@@ -12,9 +12,10 @@ This project does **not use scikit-learn** for modeling — the decision tree an
 ---
 
 ## 🏗️ Project Structure
-├── forest.py # Full implementation of Random Forest from scratch
-├── train.csv # Titanic training data (from Kaggle)
-├── README.md # This file
+
+- `forest.py` – Main script with custom Random Forest implementation
+- `train.csv` – Titanic training dataset (from Kaggle)
+- `README.md` – Project documentation
 
 ## 🚀 Getting Started
 
@@ -22,15 +23,19 @@ This project does **not use scikit-learn** for modeling — the decision tree an
   ```bash
   git clone https://github.com/yourusername/titanic-random-forest.git
   cd titanic-random-forest
+  ```
+
 
 2. Install dependencies in a virtual environment
   ```bash
   python3 -m venv venv && source venv/bin/activate
   pip3 install -r requirements.txt
+  ```
   
 3. Run the script:
   ```bash
   python3 forest.py
+  ```
 
 
 ## 📊 Features Used
