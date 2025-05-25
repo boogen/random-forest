@@ -17,12 +17,14 @@ This project does **not use scikit-learn** for modeling — the decision tree an
 - `train.csv` – Titanic training dataset (from Kaggle)
 - `README.md` – Project documentation
 
+---
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
   ```bash
-  git clone https://github.com/yourusername/titanic-random-forest.git
-  cd titanic-random-forest
+  git clone https://github.com/boogen/random-forest.git
+  cd random-forest
   ```
 
 
@@ -36,7 +38,7 @@ This project does **not use scikit-learn** for modeling — the decision tree an
   ```bash
   python3 forest.py
   ```
-
+---
 
 ## 📊 Features Used
 
